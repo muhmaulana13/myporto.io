@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@500;600&display=swap");
+
+:root{
+  --primary : #eaeaea;
+  --secondary : rgba(255, 123, 0, 0.925);
+  --third : #081b29 ;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: "Teko", sans-serif;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  color: var(--primary);
+}
+
+.navbar-brand-after {
+  color: var(--secondary);
+}
+
+.nav-color {
+  background-color: rgba(1, 1, 1, 0.3);
+  transition: all ease-in-out 0.3s;
+}
+
+.bg-transparent {
+  transition: all ease-in 0.3s;
+}
+
+.navbar-nav li {
+  margin: auto 1.2rem;
+  text-align: center;
+}
+
+.nav-link{
+  color: var(--primary);
+}
+
+.nav-link:hover{
+  color: var(--secondary);
+}
+
+.Banner {
+  background-image: url(./assets/background4.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 12rem;
+  padding-top: 11rem;
+  text-align: center;
+}
+
+.Banner img {
+box-shadow: 0 0 10px 2px orange;
+}
+
+.Banner h3 {
+  padding-top: 2rem;
+  color: rgb(218, 211, 211);
+}
+
+.Banner h6 {
+  color: rgba(255, 253, 250, 0.925);
+}
+
+.profesi1 {
+  color: rgb(238, 255, 4);
+}
+
+.profesi2 {
+  color: rgba(255, 123, 0, 0.925);
+}
+
+#About {
+  padding-top: 3rem;
+}
+
+.tittle::before {
+  content: "About ";
+  color: rgba(255, 123, 0, 0.925);
+}
+
+.tittle::after {
+  content: " Me";
+  color: aliceblue;
+}
+
+.container-card {
+  text-align: center;
+}
+
+#Contact {
+  padding-top: 5rem;
+  padding-bottom: 6rem;
+  color: aliceblue;
+}
+
+.contact::before {
+  color: rgba(255, 123, 0, 0.925);
+  content: "Contact ";
+}
+
+.contact::after {
+  color: aliceblue;
+  content: " Me";
+}
+
+.Footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: rgba(255, 123, 0, 0.925);
+  text-align: center;
+}
+
+.card {
+  text-shadow: 2cm;
+}
